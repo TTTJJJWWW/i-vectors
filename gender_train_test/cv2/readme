@@ -1,0 +1,3 @@
+ubm_database = __database_all_min15max30secs_noKids.mat
+short_database = __database_all_min5max15secs_noKids.mat
+database = __database_all_min30secs_noKids.mat

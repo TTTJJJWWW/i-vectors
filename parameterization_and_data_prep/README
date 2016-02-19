@@ -1,0 +1,8 @@
+i-vector demo, files execution order:
+
+1. Prepare _addData files and folders with .wav files to parameterize. To prepare .wav files in folders you can use .m file resampleDir to (1) divide utterances into 5s frames, (2) remove silent frames (VAD) from utterances, or/and (3) resample utterances to 8 kHz.).
+2. parameterization.m  - creates a database .mat file (for each database)
+3. mergeData.m         - merges databases
+4. chooseData.m        - choose data to further analysis (min wav duration), save database 
+                       to .mat file, plot histograms and calculate % of data left
+5. main.m
